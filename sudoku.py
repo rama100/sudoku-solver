@@ -89,7 +89,7 @@ class SudokuSolver():
         allowed_nums = self.allowed(cell)
         result = f'for x{cell} in {allowed_nums}' 
         nbrs = self.cell_to_rel_nbrs(cell)
-        if len(nbrs) is not 0:
+        if len(nbrs) != 0:
             result = result + ' - {'+ ','.join([f'x{i}' for i in nbrs]) + '} '
         return result 
 
