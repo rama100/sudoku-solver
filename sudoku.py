@@ -103,8 +103,7 @@ class SudokuSolver():
         self.create_helper_arrays()
         soln = next(eval(self.gen_full_exp()))
         for i in range(self.dim):
-            print(soln[i*self.dim:(i+1)*self.dim])
-
+            print('  '.join(map(str,soln[i*self.dim:(i+1)*self.dim])))
             
 if __name__ == "__main__":
     import sys
