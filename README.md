@@ -2,6 +2,19 @@
 Sudoku Solver in Python
 
 
+**Usage**
+
+`python sudoku.py input_filename.txt`
+
+
+input_filename.txt has the puzzle that needs to be solved. 
+- one line for each row of the puzzle
+- zeros for blank cells
+- cells separated by spaces
+ 
+ (It may be easier to just edit 'puzzle.txt' in the repo)
+ 
+ 
 **Example**  
 
 Let's say the puzzle you want to solve is in puzzle.txt
@@ -35,24 +48,9 @@ To solve it:
 6  8  5  4  2  7  9  3  1  
 2  1  3  5  8  9  6  7  4  
 
-
-
-**Usage**
-
-In general:
-
-`python sudoku.py input_filename.txt`
-
-
-input_filename.txt has the puzzle that needs to be solved. 
-- one line for each row of the puzzle
-- zeros for blank cells
-- cells separated by spaces
- 
- (It may be easier to just edit 'puzzle.txt' in the repo)
  
  
  **Approach**
  
-The approach was inspired by something I saw in [Peter Norvig](www.norvig.com)'s Udacity lectures. That said, I haven't been able to bring myself to look at [his sudoku solver](http://www.norvig.com/sudoku.html) yet, since it will likely be a thing of elegance, cleverness and great beauty that will make my version look pedestrian and make me weep :-) 
+The approach was inspired by something I saw in [Peter Norvig](www.norvig.com)'s wonderful Udacity [course](https://www.udacity.com/course/design-of-computer-programs--cs212). That said, I haven't been able to bring myself to look at [his sudoku solver](http://www.norvig.com/sudoku.html) yet, since it will likely be a thing of elegance and great beauty that will make my version look downright pedestrian :-( 
  
