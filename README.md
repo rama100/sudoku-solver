@@ -1,6 +1,6 @@
-# sudoku-solver
+# A Sudoku Solver in Python
 
-I wrote this Sudoku Solver in Python after learning about Python generators and the magical `eval()` function in [Peter Norvig](www.norvig.com)'s wonderful Udacity [course](https://www.udacity.com/course/design-of-computer-programs--cs212). That said, I haven't been able to bring myself to look at [his sudoku solver](http://www.norvig.com/sudoku.html) yet, since it will likely be a thing of elegance and great beauty that will make my version look downright pedestrian :-( 
+I wrote this sudoku solver after learning about Python generators and the magical `eval()` function in [Peter Norvig](www.norvig.com)'s wonderful Udacity [course](https://www.udacity.com/course/design-of-computer-programs--cs212). That said, I haven't been able to bring myself to look at [his sudoku solver](http://www.norvig.com/sudoku.html) yet, since it will likely be a thing of elegance and great beauty that will make my version look downright pedestrian :-( 
 
 
 **Usage**
