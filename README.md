@@ -13,7 +13,7 @@ input_filename.txt has the puzzle that needs to be solved.
 - zeros for blank cells
 - cells separated by spaces
  
- (It may be easier to just edit 'puzzle.txt' in the repo)
+ (It may be easier to just copy the file 'puzzle.txt' from the repo and modify it)
  
  
 **Example**  
@@ -48,6 +48,7 @@ To solve it:
 9  4  7  6  3  1  8  2  5  
 6  8  5  4  2  7  9  3  1  
 2  1  3  5  8  9  6  7  4  
+
 
  
 
